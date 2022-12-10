@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="/action_page.php" method="post" class="form">
+        <header>
+            <div>
+         <h1>Signup</h1>
+         </div>   
+        </header>
+        <main>
+            <label for="name"><input type="name" id="name" name="name" placeholder="FullName" required></label>
+            <hr>
+            <label for="email"><input type="email" id="email" name="email" placeholder="Email" required></label>
+            <hr>
+            <label for="Password"><input type="password" id="password" name="password" placeholder="password" required></label>
+            <hr>
+            <label for="password"><input type="password" id="password" name="password" placeholder="Confirm Password" required></label>
+            <hr>
+            <label for="date"><input type="date" id="date" name="date"  placeholder="MM/DD/YY" required></label>
+            <hr>
+            <label for="student"><input type="radio" id="student" name="student" required>Student</label>
+            <label for="student"><input type="radio" id="Employee" name="student" required>Employee</label>
+            <br>
+            <br>
+            <label for="checkbox"><input type="checkbox" id="checkbox"required>I agree to all the terms and conditions</label>
+        </main>
+        <br>
+        <br>
+        <footer>
+            <button><input type="signup" placeholder="signup"></button>
+        </footer>
+    </form>
+
+    
+</body>
+</html>
